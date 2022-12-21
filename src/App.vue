@@ -1,6 +1,9 @@
 <script>
+  import AppHeader from './components/AppHeader.vue';
+
+
   export default {
-    
+    components: { AppHeader }
   }
 </script>
 
@@ -9,7 +12,7 @@
       <!-- Topbar con contatti -->
       <!-- Navbar con logo e menu -->
       <!-- Hero -->
-
+  <AppHeader />
   <!-- Main -->
       <!-- Section con cards - Business Areas -->
       <!-- Section con bg e list items - The Company  -->
@@ -23,4 +26,6 @@
 </template>
 
 <style lang="scss">
+  @use './styles/general.scss' as *;
+   
 </style>
