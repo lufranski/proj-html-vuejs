@@ -47,8 +47,7 @@
     .contactbar {
         background-color: $bg-dark;
         padding: 1rem 0;
-        // DEBUG
-        // height: 50px;
+        
 
         .container {
             display: flex;
