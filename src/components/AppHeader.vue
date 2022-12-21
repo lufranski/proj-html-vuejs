@@ -15,11 +15,17 @@
 <template>
     <header>
 
+        
         <ContactsTopBar />
-    
+        
         <HeaderNavbar />
-
+        
+        <!-- <div class="bg"> -->
+        
         <AppHero />
+        
+        <!-- </div> -->
+        
 
     </header>
 </template>
@@ -29,11 +35,9 @@
     @use '../styles/partials/_mixins.scss' as *;
 
     header {
-        // background-color: $bg-dark-card;
-        background-image: url("../assets/consultant/images/bg-parallax.png");
-        background-position: center;
-        background-size: fill;
-        height: 700px;
+        background-image: url('../assets/consultant/images/bg-parallax.png'), url('../assets/polygon-scatter-haikei\ \(1\).svg');
+        height: 630px;
+        background-position: 50% 25%;
     }
 
 </style>

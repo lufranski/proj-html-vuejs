@@ -52,10 +52,9 @@
         .hero-label {
             width: 50%;
             position: absolute;
-            bottom: 20%;
+            bottom: 40%;
             left: 50%;
             transform: translate(-50%);
-            // margin: 10ox auto;
             color: $contacts-tp-bg;
             font-size: 20px;
             text-align: center;
