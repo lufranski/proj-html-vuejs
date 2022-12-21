@@ -1,9 +1,13 @@
 <script>
+  import AppFooter from './components/AppFooter.vue';
   import AppHeader from './components/AppHeader.vue';
 
 
   export default {
-    components: { AppHeader }
+    components: { 
+      AppHeader, 
+      AppFooter 
+    }
   }
 </script>
 
@@ -23,6 +27,7 @@
   <!-- Footer -->
       <!-- Flex container con contatti + card con list items -->
       <!-- Section con pulsante "sali su" -->
+  <AppFooter />
 </template>
 
 <style lang="scss">

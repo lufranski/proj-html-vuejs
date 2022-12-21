@@ -1,6 +1,12 @@
 <script>
-    export default{
+    import {store} from '../store.js';
 
+    export default{
+        data(){
+            return{
+                store
+            }
+        }
     }
 </script>
 
@@ -17,23 +23,15 @@
             
             <div class="contacts">
                 <ul>
-                    <li>
-                        <font-awesome-icon icon="fa-solid fa-phone" />
-                        +1 (305) 1234-5678
+                    
+                    <li v-for="item in store.contacts.slice(0, 2)">
+                       <font-awesome-icon :icon="item.icon" />  
+                        {{ item.name }}
                     </li>
-                    <li>
-                        <font-awesome-icon icon="fa-solid fa-envelope" />
-                        hello@example.com
+                    <li v-for="item in store.brands">
+                        <font-awesome-icon :icon="item.icon" />
                     </li>
-                    <li>
-                        <font-awesome-icon icon="fa-brands fa-facebook-f" />
-                    </li>
-                    <li>
-                        <font-awesome-icon icon="fa-brands fa-twitter" />
-                    </li>
-                    <li>
-                        <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-                    </li>
+                    
                 </ul>
             </div>
         </div>
