@@ -45,14 +45,16 @@
     @use '../styles/partials/_variables.scss' as *;
 
     .contactbar {
-        background-color: $bg-dark;
-        padding: 1rem 0;
+        background-color: $contacts-tp-bg;
+        padding: .5rem 0;
+        font-size: 13px;
         
 
         .container {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             color: $pumice-text;
+            width: 60%;
 
             .contacts {
                 ul {

@@ -39,12 +39,13 @@
     @use '../styles/partials/_variables.scss' as *;
 
     .container {
+        width: 50%;
         display: flex;
         @include center (vertical);
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
-    
+        
         .logo {
             font-weight: 900;
     
@@ -72,10 +73,13 @@
 
             .button {
                 margin-left: 1rem;
-                background-color: $primary-color;
-                color: $bg-white;
-                padding: .5rem 1rem;
-                border-radius: 5px;
+                transition: .4s;
+
+                &:hover {
+                    border-color: $logo-bg;
+                    background-color: $logo-bg;
+                    color: $bg-white;
+                }
             }
         }
     }
