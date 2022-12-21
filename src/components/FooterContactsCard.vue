@@ -57,10 +57,11 @@
 
         p {
             margin-bottom: 1rem;
+            width: 55%;
         }
 
         ul {
-            margin-bottom: 3rem;
+            margin-bottom: 4.5rem;
 
             li {
                 margin-bottom: 1rem;

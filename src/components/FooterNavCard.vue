@@ -36,8 +36,6 @@
     @use '../styles/partials/_mixins.scss' as *;
 
     .card {
-        // DEBUG
-        // width: calc(25% - 2rem);
         padding: 1rem 3rem;
         background-color: rgba(#1d2023, .4);
         border-radius: 10px;

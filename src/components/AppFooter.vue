@@ -1,14 +1,20 @@
 <script>
+    import FooterBotBar from './FooterBotBar.vue';
     import FooterNav from './FooterNav.vue';
 
     export default {
-        components: { FooterNav }
+        components: { 
+            FooterNav, 
+            FooterBotBar 
+        }
     }
 </script>
 
 <template>
     <footer>
         <FooterNav />
+
+        <FooterBotBar />
     </footer>
 </template>
 
@@ -18,8 +24,7 @@
 
     footer {
         background-color: #111117;
-        padding: 3rem;
-        // DEBUG
-        // height: 300px;
+        // padding: 3rem;
+        
     }
 </style>

@@ -33,6 +33,6 @@
     .container {
         display: flex;
         gap: 2rem;
-        padding: 1rem 0;
+        padding: 3rem;
     }
 </style>
