@@ -1,6 +1,12 @@
 <script>
-    export default {
+    import {store} from '../store.js';
 
+    export default {
+        data(){
+            return {
+                store
+            }
+        }
     }
 </script>
 
@@ -16,11 +22,11 @@
         <!-- MENU -->
         <nav>
             <ul>
-                <li>HOME</li>
-                <li>SERVICES</li>
-                <li>ABOUT</li>
-                <li>PROJECTS</li>
-                <li>RESULTS</li>
+                <li v-for="item in store.navLinks">
+                    <a href="#">
+                        {{ item }}
+                    </a>
+                </li>
             </ul>
 
             <div class="button">GET IN TOUCH</div>
@@ -46,7 +52,7 @@
                 border-radius: 20px 0 0 20px;
                 background-color: rgba($logo-bg, .5);
                 color: $primary-color;
-                padding: .5rem;
+                padding: .5rem .2rem .5rem 1rem;
             }
         
             #gen {
