@@ -1,12 +1,14 @@
 <script>
   import AppFooter from './components/AppFooter.vue';
   import AppHeader from './components/AppHeader.vue';
+  import AppMain from './components/AppMain.vue';
 
 
   export default {
-    components: { 
-      AppHeader, 
-      AppFooter 
+    components: {
+      AppHeader,
+      AppFooter,
+      AppMain
     }
   }
 </script>
@@ -17,12 +19,9 @@
       <!-- Navbar con logo e menu -->
       <!-- Hero -->
   <AppHeader />
+  
   <!-- Main -->
-      <!-- Section con cards - Business Areas -->
-      <!-- Section con bg e list items - The Company  -->
-      <!-- Section con nav menu e cards con bg img - Actions & Projects -->
-      <!-- Section con list items e bg img - Results -->
-      <!-- Form section - Get in Touch -->
+  <AppMain />    
 
   <!-- Footer -->
       <!-- Flex container con contatti + card con list items -->

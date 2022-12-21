@@ -1,5 +1,4 @@
 <script>
-    // import {store} from '../store.js';
 
     export default {
         props: {
@@ -36,6 +35,7 @@
     @use '../styles/partials/_mixins.scss' as *;
 
     .card {
+        min-width: 23%;
         padding: 1rem 3rem;
         background-color: rgba(#1d2023, .4);
         border-radius: 10px;
@@ -51,6 +51,7 @@
 
             a {
                 color: $pumice-text;
+                font-size: 15px;
                 
                 span {
                     margin-left: .5rem;
