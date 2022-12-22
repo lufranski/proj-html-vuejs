@@ -3,7 +3,7 @@
 
     export default {
         props: {
-            item: Object
+            item: Object,
         },
         data() {
             return {
@@ -15,7 +15,7 @@
 
 <template>
     <div class="card">
-        <img :src="item.img"  alt="">
+        <img src="../assets/consultant/svgs/svg-1.svg"  alt="">
 
         <h3>
             {{ item.name }}

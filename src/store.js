@@ -78,5 +78,27 @@ export const store = reactive ({
             '../assets/consultant/svgs/svg-7.svg'
         ]
         
-    }
+    },
+    theCompany: [
+        {
+            title: 'Tradition',
+            icon: 'fa-solid fa-award',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+        },
+        {
+            title: 'Security',
+            icon: 'fa-solid fa-lock',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+        },
+        {
+            title: 'Certificate',
+            icon: 'fa-solid fa-pen-to-square',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+        },
+        {
+            title: 'Expertise',
+            icon: 'fa-solid fa-graduation-cap',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+        },
+    ]
 });

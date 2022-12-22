@@ -38,6 +38,8 @@
             </div>
 
         </div>
+        
+        <img src="../assets/consultant/images/bullets.png" alt="">
     </section>
 </template>
 
@@ -48,6 +50,7 @@
     section {
         background-color: #eef4ed;
         padding: 3rem;
+        position: relative;
 
         .container {
             width: 60%;
@@ -95,6 +98,17 @@
                 flex-wrap: wrap;
                 gap: 1rem;
             }
+
+        }
+
+        img {
+            width: 80px;
+            position: absolute;
+            bottom: -40px;
+            left: 50%;
+            transform: translate(-50%);
+            filter:opacity(.3);
+            z-index: 200;
         }
     }
 
