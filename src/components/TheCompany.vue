@@ -38,7 +38,9 @@
 
         <div class="image"></div>
 
-        <img src="../assets/consultant/images/bullets.png" alt="">
+        <div class="bullet">
+            <img src="../assets/consultant/images/bullets.png" alt="">
+        </div>
 
     </section>
 </template>
@@ -120,14 +122,21 @@
             background-image: url('../assets/consultant/images/about-4.jpg');
         }
 
-        img {
+        .bullet{
             width: 80px;
+            height: 40px;
+            object-fit: cover;
             position: absolute;
-            bottom: -40px;
+            bottom: -20px;
             left: 50%;
             transform: translate(-50%);
-            filter:opacity(.3);
             z-index: 200;
+            overflow-y: hidden;
+
+            img {
+                width: 100%;
+                filter:opacity(.3);
+            }
         }
     }
 </style>
