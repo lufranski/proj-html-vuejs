@@ -44,6 +44,7 @@
         h5 {
                  
             color: $primary-color;
+            margin-bottom: 1rem;
             
         }
     
@@ -76,27 +77,23 @@
         }
     
         .form {
-            width: 80%;
+            width: 100%;
             margin-top: 1rem;
-            // DEBUG
-            height: 200px;
             position: relative;
-            // border: 1px solid black;
 
             .input {
                 cursor: pointer;
-                width: 40%;
+                width: 45%;
                 padding: 10px;
                 background-color: #ececec;
                 border-radius: 3px;
                 border: none;
                 margin-bottom: 10px;
-                // position: relative;
             }
 
             .input.name {
                 background-image: url('../assets/consultant/images/image\ \(1\).png');
-                background-position: 210px 10px;
+                background-position: 200px 10px;
                 background-repeat: no-repeat;
                 margin-right: 10px;
             }
@@ -108,13 +105,13 @@
             span {
                 position: absolute;
                 color: #6f7b88;
-                right: 20%;
-                top: 26%;
+                right: 10%;
+                top: 19%;
                 cursor: pointer;
             }
 
             .input.txtarea {
-                width: calc(80% + 10px);
+                width: calc(90% + 10px);
                 height: 150px;
                 padding-bottom: 140px;
             }

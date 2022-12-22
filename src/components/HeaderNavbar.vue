@@ -39,9 +39,8 @@
     @use '../styles/partials/_variables.scss' as *;
 
     .container {
-        width: 50%;
+        width: 55%;
         display: flex;
-        @include center (vertical);
         justify-content: space-between;
         align-items: center;
         padding: 1rem;
@@ -51,13 +50,13 @@
     
             #next {
                 border-radius: 20px 0 0 20px;
-                background-color: rgba($logo-bg, .5);
+                background-color: rgba($logo-bg, .2);
                 color: $primary-color;
                 padding: .5rem .2rem .5rem 1rem;
             }
         
             #gen {
-                color: $bg-dark;
+                color: #21333e;
             }
         }
     
@@ -69,6 +68,10 @@
                 display: flex;
                 align-items: center;
                 gap: 1rem;
+
+                a {
+                    color: #21333e;
+                }
             }
 
             .button {

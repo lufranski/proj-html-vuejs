@@ -37,10 +37,7 @@
     @use '../styles/partials/_variables.scss' as *;
 
     .hero {
-        // background-image: url("../assets/consultant/images/bg-parallax.png");
-        // background-position: center;
         position: relative;
-        // DEBUG
         height: 600px;
 
         img {
@@ -49,17 +46,17 @@
         }
 
         .hero-label {
-            width: 50%;
+            width: 40%;
             position: absolute;
             bottom: 40%;
             left: 50%;
             transform: translate(-50%);
             color: $contacts-tp-bg;
-            font-size: 20px;
+            font-size: 16px;
             text-align: center;
             
             h2 {
-                font-size: 90px;
+                font-size: 75px;
                 font-weight: 900;            
             
                 .mark {

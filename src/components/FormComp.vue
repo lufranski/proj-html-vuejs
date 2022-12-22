@@ -1,32 +1,43 @@
 <script>
     import CompileForm from './CompileForm.vue';
+    import InfoComp from './InfoComp.vue';
 
     export default {
-        components: { CompileForm }
+        components: { CompileForm, InfoComp }
     }
 </script>
 
 <template>
-    <section>
-        <div class="container">
+    <div class="container">
+        <div>
 
             <CompileForm />
 
         </div>
-    </section>
+
+        <div class="info">
+
+            <InfoComp />
+
+        </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
     @use '../styles/partials/_variables.scss' as *;
 
-    section {
-        width: 100%;
+    .container {
         background-color: $bg-white;
-        padding: 3rem;
+        padding: 3rem 10rem;
+        display: flex;
         
 
-        .container {
-            width: 60%;
+        div {
+            width: 70%;
+        }
+
+        .info {
+            width: 30%;
         }
     }
 </style>

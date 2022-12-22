@@ -50,9 +50,9 @@
 
         .container {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-between;
             color: $pumice-text;
-            width: 60%;
+            width: 55%;
 
             .contacts {
                 ul {

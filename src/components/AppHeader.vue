@@ -35,8 +35,9 @@
 
     header {
         background-image: url('../assets/consultant/images/bg-parallax.png'), url('../assets/polygon-scatter-haikei\ \(1\).svg');
-        height: 630px;
+        height: 700px;
         background-position: 50% 25%;
+        background-size: cover;
         position: relative;
 
         ul {
