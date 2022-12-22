@@ -68,9 +68,19 @@
                 display: flex;
                 align-items: center;
                 gap: 1rem;
+                
+                li{
+                    cursor: pointer;
 
-                a {
-                    color: #21333e;
+                    &:hover {
+                        background-color: rgba($logo-bg, .2);
+                        border-radius: 5px;
+                        padding: .5rem;
+                    }
+
+                    a {
+                        color: #21333e;
+                    }
                 }
             }
 
