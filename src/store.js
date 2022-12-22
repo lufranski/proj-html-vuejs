@@ -155,5 +155,23 @@ export const store = reactive ({
                 bg: '../../public/img/project-6.jpg'
             },
         ]
-    }
+    },
+    results: [
+        {
+            title: 'Certifications',
+            number: '128'
+        },
+        {
+            title: 'Employees',
+            number: '230'
+        },
+        {
+            title: 'Customers',
+            number: '517'
+        },
+        {
+            title: 'Countries Served',
+            number: '94'
+        },
+    ]
 });

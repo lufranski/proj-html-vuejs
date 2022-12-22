@@ -43,6 +43,7 @@
     section {
         text-align: center;
         padding: 6rem;
+        margin-bottom: 6rem;
 
         h5 {
            color: $primary-color;
