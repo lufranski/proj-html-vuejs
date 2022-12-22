@@ -1,11 +1,13 @@
 <script>
+    import ActionProjects from './ActionProjects.vue';
     import BusinessAreas from './BusinessAreas.vue';
     import TheCompany from './TheCompany.vue';
 
     export default {
-    components: { 
-        BusinessAreas, 
-        TheCompany 
+    components: {
+        BusinessAreas,
+        TheCompany,
+        ActionProjects
     }
 }
 </script>
@@ -17,8 +19,9 @@
 
         <!-- Section con bg e list items - The Company  -->
         <TheCompany />  
+        
         <!-- Section con nav menu e cards con bg img - Actions & Projects -->
-      
+        <ActionProjects />
         <!-- Section con list items e bg img - Results -->
       
         <!-- Form section - Get in Touch -->
