@@ -19,13 +19,12 @@
         <ContactsTopBar />
         
         <HeaderNavbar />
-        
-        <!-- <div class="bg"> -->
-        
+                
         <AppHero />
         
-        <!-- </div> -->
-        
+        <ul>
+            <li v-for="x in 3"></li>
+        </ul>        
 
     </header>
 </template>
@@ -38,6 +37,26 @@
         background-image: url('../assets/consultant/images/bg-parallax.png'), url('../assets/polygon-scatter-haikei\ \(1\).svg');
         height: 630px;
         background-position: 50% 25%;
+        position: relative;
+
+        ul {
+            position: absolute;
+            right: 10px;
+            bottom: 300px;
+            height: 100px;
+
+            li {
+                width: 10px;
+                height: 30px;
+                border: 1px solid $primary-color;
+                border-radius: 10px;
+                margin-bottom: .5rem;
+            }
+
+            li:nth-child(2) {
+                background-color: $primary-color;
+            }
+        }
     }
 
 </style>

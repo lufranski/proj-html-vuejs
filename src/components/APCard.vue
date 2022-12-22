@@ -26,6 +26,7 @@
     .card {
         width: calc((100% / 3) - 2rem);
         position: relative;
+        cursor: pointer;
 
         &:hover div {
             display: block;

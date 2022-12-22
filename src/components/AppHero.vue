@@ -6,7 +6,6 @@
 
 <template>
     <div class="container hero">
-        <!-- <img src="../assets/consultant/images/bg-parallax.png" alt=""> -->
 
         <div class="hero-label">
             <h2>

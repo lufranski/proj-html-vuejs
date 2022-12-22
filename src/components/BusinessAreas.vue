@@ -82,7 +82,7 @@
 
                 p {
                     color: #7e8da1;
-                    width: 75%;
+                    width: 80%;
                 }
 
                 .button {
