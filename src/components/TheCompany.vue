@@ -123,11 +123,11 @@
         }
 
         .bullet{
-            width: 80px;
-            height: 40px;
+            width: 150px;
+            height: 60px;
             object-fit: cover;
             position: absolute;
-            bottom: -20px;
+            bottom: -30px;
             left: 50%;
             transform: translate(-50%);
             z-index: 200;

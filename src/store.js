@@ -65,20 +65,38 @@ export const store = reactive ({
             ]
         }
     ],
-    businessAreas: {
-        par: 'Lorem ipsum dolor sit amet consectetur adipiscing elit',
-        icon: 'fa-solid fa-arrow-right',
-        cards: [
-            '../assets/consultant/svgs/svg-1.svg',
-            '../assets/consultant/svgs/svg-2.svg',
-            '../assets/consultant/svgs/svg-3.svg',
-            '../assets/consultant/svgs/svg-4.svg',
-            '../assets/consultant/svgs/svg-5.svg',
-            '../assets/consultant/svgs/svg-6.svg',
-            '../assets/consultant/svgs/svg-7.svg'
-        ]
-        
-    },
+    businessAreas: [
+        {
+            title: 'Audit & Assurance',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+            icon: '../../public/svg-1.svg' 
+        },
+        {
+            title: 'Financial Advisory',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+            icon: '../../public/svg-2.svg' 
+        },
+        {
+            title: 'Analytics and M&A',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+            icon: '../../public/svg-3.svg' 
+        },
+        {
+            title: 'Middle Marketing',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+            icon: '../../public/svg-4.svg' 
+        },
+        {
+            title: 'Legal Consulting',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+            icon: '../../public/svg-5.svg' 
+        },
+        {
+            title: 'Regulatory Risk',
+            par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
+            icon: '../../public/svg-6.svg' 
+        },
+    ],
     theCompany: [
         {
             title: 'Tradition',

@@ -33,7 +33,7 @@
 
             <div class="cardcontainer">
 
-                <BACard v-for="(item, index) in store.footerNav[1].subLink" :item="item" :key="index"/>
+                <BACard v-for="item in store.businessAreas" :item="item" />
             
             </div>
 
@@ -56,6 +56,8 @@
 
         .container {
             width: 60%;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
 
             h5 {
                 color: $primary-color;
@@ -104,11 +106,11 @@
         }
 
         .bullet{
-            width: 80px;
-            height: 40px;
+            width: 150px;
+            height: 60px;
             object-fit: cover;
             position: absolute;
-            bottom: -20px;
+            bottom: -30px;
             left: 50%;
             transform: translate(-50%);
             z-index: 200;

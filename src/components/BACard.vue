@@ -1,31 +1,25 @@
 <script>
-    import {store} from '../store.js';
 
     export default {
         props: {
             item: Object,
         },
-        data() {
-            return {
-                store
-            }
-        }
     }
 </script>
 
 <template>
     <div class="card">
-        <img src="../assets/consultant/svgs/svg-1.svg"  alt="">
+        <img :src="item.icon"  alt="">
 
         <h3>
-            {{ item.name }}
+            {{ item.title }}
         </h3>
 
         <p>
-            {{ store.businessAreas.par }}
+            {{ item.par }}
         </p>
 
-        <font-awesome-icon :icon="store.businessAreas.icon" class="arrow"/>
+        <font-awesome-icon icon="fa-solid fa-arrow-right" class="arrow"/>
     </div>
 </template>
 
@@ -42,8 +36,10 @@
         
 
         img {
-            max-width: 30px;
+            width: 40px;
+            height: 40px;
             filter: brightness(0) saturate(100%) invert(39%) sepia(15%) saturate(4855%) hue-rotate(145deg) brightness(89%) contrast(98%);
+            margin-bottom: 1rem;
         }
 
         .arrow {
@@ -65,6 +61,7 @@
         h3 {
             color: #21333e;
             font-size: 23px;
+            margin-bottom: 1rem;
         }
 
         p {
