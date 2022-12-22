@@ -3,13 +3,15 @@
     import BusinessAreas from './BusinessAreas.vue';
     import Results from './Results.vue';
     import TheCompany from './TheCompany.vue';
+    import FormComp from './FormComp.vue';
 
     export default {
         components: {
             BusinessAreas,
             TheCompany,
             ActionProjects,
-            Results
+            Results,
+            FormComp
         }
     }
 </script>
@@ -29,6 +31,8 @@
         <Results />
 
         <!-- Form section - Get in Touch -->
+        <FormComp />
+
     </main>
 </template>
 

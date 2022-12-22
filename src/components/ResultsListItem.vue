@@ -30,7 +30,7 @@
     li {
         color: $bg-white;
         .title {
-            font-size: 25px;
+            font-size: 23px;
         }
 
         .number {

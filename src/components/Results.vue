@@ -49,18 +49,17 @@
             overflow-y: hidden;
             background-position: center;
             text-align: center;
-            padding: 5rem;
+            padding: 10rem;
 
             h5 {
                 color: $primary-color;
                 margin-bottom: 2rem;
-                margin-top: 10rem;
             }
             
             h3 {
                 color: $bg-white;
                 font-size: 53px;
-                margin-bottom: 6rem;
+                margin-bottom: 4rem;
 
                 
                 span {
@@ -73,8 +72,8 @@
 
             ul {
                 display: flex;
-                gap: 5rem;
-                width: 55%;
+                gap: 6rem;
+                width: 70%;
                 margin: 0 auto;
 
                 
