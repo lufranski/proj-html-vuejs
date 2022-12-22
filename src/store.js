@@ -118,5 +118,42 @@ export const store = reactive ({
             icon: 'fa-solid fa-graduation-cap',
             par: 'Lorem ipsum dolor sit amet consectetur adipiscing edit.',
         },
-    ]
+    ],
+    actionsProjects: {
+        list: [
+            'ALL',
+            'INSTITUTIONAL',
+            'SOCIAL',
+            'EVENTS',
+            'INNOVATION',
+            'ENVIRONMENT',
+            'TECHNOLOGY'
+        ],
+        cards: [
+            {
+                par: 'Academic professional program in social media',
+                bg: '../../public/img/project-1.jpg'
+            },
+            {
+                par: "President's speech at the annual meeting",
+                bg: '../../public/img/project-2.jpg'
+            },
+            {
+                par: 'International business trip in Shangai',
+                bg: '../../public/img/project-3.jpg'
+            },
+            {
+                par: 'Technology workshop with education theme',
+                bg: '../../public/img/project-4.jpg'
+            },
+            {
+                par: 'Donation of clothes and food to the partner NGO',
+                bg: '../../public/img/project-5.jpg'
+            },
+            {
+                par: 'Confraternization of the procurement team',
+                bg: '../../public/img/project-6.jpg'
+            },
+        ]
+    }
 });
