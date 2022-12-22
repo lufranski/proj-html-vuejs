@@ -1,12 +1,18 @@
 <script>
-    export default {
+    import CompileForm from './CompileForm.vue';
 
+    export default {
+        components: { CompileForm }
     }
 </script>
 
 <template>
     <section>
+        <div class="container">
 
+            <CompileForm />
+
+        </div>
     </section>
 </template>
 
@@ -16,7 +22,11 @@
     section {
         width: 100%;
         background-color: $bg-white;
-        // DEBUG
-        height: 400px;
+        padding: 3rem;
+        
+
+        .container {
+            width: 60%;
+        }
     }
 </style>
