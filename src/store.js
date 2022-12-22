@@ -173,5 +173,12 @@ export const store = reactive ({
             title: 'Countries Served',
             number: '94'
         },
+    ],
+    partners: [
+        '../../public/img/logo-1.png',
+        '../../public/img/logo-2.png',
+        '../../public/img/logo-3.png',
+        '../../public/img/logo-4.png',
+        '../../public/img/logo-5.png'
     ]
 });

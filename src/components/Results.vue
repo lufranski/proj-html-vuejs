@@ -1,9 +1,10 @@
 <script>
     import {store} from '../store.js';
+    import Partners from './Partners.vue';
     import ResultsListItem from './ResultsListItem.vue';
 
     export default {
-        components: { ResultsListItem },
+        components: { ResultsListItem, Partners },
         data() {
             return {
                 store
@@ -26,7 +27,14 @@
             </ul>
         </div>
         
-        <div class="partners"></div>
+        <div class="partners">
+
+            <!-- Partner logos -->
+            <ul>
+                <Partners v-for="item in store.partners" :item="item"/>
+            </ul>
+
+        </div>
     </section>
 </template>
 
@@ -41,8 +49,7 @@
             overflow-y: hidden;
             background-position: center;
             text-align: center;
-            // DEBUG
-            height: 600px;
+            padding: 5rem;
 
             h5 {
                 color: $primary-color;
@@ -77,8 +84,14 @@
         
         .partners {
             background-color: $bg-dark;
-            // DEBUG
-            height: 200px;
+            padding: 2rem;
+
+            ul {
+                display: flex;
+                gap: 6rem;
+                width: 55%;
+                margin: 6rem auto;
+            }
         }
     }
 </style>
